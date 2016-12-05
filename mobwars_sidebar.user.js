@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            Mob Wars Sidebar Loader
-// @namespace       http://mwheists.github.io/
+// @namespace       https://invmanager.github.io/invmanager/
 // @version         1.0
 // @description     Loads mobwars sidebar
 // @include   	    /^https?:\/\/apps.facebook.com/mobwars/*/
@@ -17,7 +17,7 @@
 	if (typeof $ == 'undefined') {
 		$ = unsafeWindow.$;
 	}
-	loadContent('https://mwheists.github.io/mobwars_sidebar.js');
+	loadContent('https://invmanager.github.io/invmanager/mobwars_sidebar.js');
 
 	function loadContent(file){
 		var head = document.getElementsByTagName('head').item(0);

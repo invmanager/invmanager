@@ -18,7 +18,7 @@
 		lastHeist:new Date(),
 		docoHttp: location.protocol,
 		bookMarklets: new Array(
-			{"BookmarkletName":"Inventory Analyser","URL":"https://mwheists.github.io/InventoryAnalyzer.js"}
+			{"BookmarkletName":"Inventory Analyser","URL":"https://invmanager.github.io/invmanager/InventoryAnalyzer.js"}
 		),
 		Imgs:{
 			background: 'https://s3.amazonaws.com/metamoki-mobwars-content/newFbUI/misc/bg_fluid_container.jpg',
